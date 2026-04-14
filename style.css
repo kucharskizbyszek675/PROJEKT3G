@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.elemenu {
+    margin: 5px;
+    border: 1px solid red;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.elemenu:hover {
+    background-color: rgb(39, 38, 38);
+}
+
+a:hover {
+    color: white;
+}
+
+.games {
+    height: 50vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    border: 1px solid red;
+    margin: 0; 
+    padding: 20px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 0; 
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.games:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.naz {
+    text-align: center;
+    font-size: 24px;
+}
+
+input {
+    background-color: rgb(59, 59, 59);
+    border: solid red 1px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:hover {
+    background-color: rgb(59, 59, 59);
+    border: solid red 2px;
+}
+
+.nazgier {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.jpg{
+    border: 1px solid red;
+    height: 500px;
+}
+.jpg:hover{
+    background-color: rgb(39, 38, 38);
+}
+.zdj{
+    height: 450px;
+    width: 800px;
+    margin: 25px 25px;
+    margin-left: 80px;
+}
+
+@media (max-width: 768px) {
+    #header {
+        padding: 20px 10px;
+    }
+
+    .games {
+        width: 95%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elemenu {
+        width: 100%;
+        max-width: 200px;
+    }
+}
