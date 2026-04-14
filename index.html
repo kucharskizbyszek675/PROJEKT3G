@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Glowna</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div id="header">
+        <h2>PORADNIKI DO GIER</h2>
+        <ul id="menu">
+            <li class="elemenu"><a href="index.html">Strona Głowna</a></li>
+            <li class="elemenu"><a href="CS.html">Counter-Strike2</a></li>
+            <li class="elemenu"><a href="FN.html">Fortnite</a></li>
+            <li class="elemenu"><a href="VALO.html">Valorant</a></li>
+            <li class="elemenu"><a href="LOL.html">LOL</a></li>
+            <li class="elemenu"><a href="WARZONE.html">Warzone</a></li>
+            <li class="elemenu"><a href="Mincraft.html">Minecraft</a></li>
+            <li class="elemenu"><a href="TF.html">The Forest</a></li>
+        </ul>
+    </div>
+    
+    
+    <div class="games">
+        <h1 class="naz">Counter-Strike2</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Taktyczna strzelanka FPS oparta na rywalizacji między terrorystami a antyterrorystami.</li>
+            <li>Skupia się na precyzyjnej mechanice strzelania i współpracy drużynowej.</li>
+            <li>Popularna w e-sporcie, z trybami turniejowymi i rankingowymi.</li>
+        </ul>
+        <input type="text" id="User" placeholder="NIckname"><br>
+        <input type="text" id="ogame" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia1()"><br>
+        <p id="txt"></p>
+    </div>
+    
+    
+    <div class="games">
+        <h1 class="naz">Fortnite</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Gra battle royale, w której 100 graczy walczy o przetrwanie na jednej wyspie.</li>
+            <li>Charakteryzuje się kolorową grafiką i unikalnym systemem budowania struktur.</li>
+            <li>Często aktualizowana o nowe wydarzenia, skórki i kolaboracje popkulturowe.</li>
+        </ul>
+        <input type="text" id="User1" placeholder="NIckname"><br>
+        <input type="text" id="ogame1" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia2()"><br>
+        <p id="txt1"></p>
+    </div>
+    
+    
+    <div class="games">
+        <h1 class="naz">Valorant</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Taktyczna strzelanka 5 na 5, łącząca precyzyjne strzelanie z unikalnymi umiejętnościami postaci.</li>
+            <li>Każdy agent ma swoje specjalne zdolności, które wpływają na rozgrywkę.</li>
+            <li>Silny nacisk na strategię, komunikację i celność.</li>
+        </ul>
+        <input type="text" id="User2" placeholder="NIckname"><br>
+        <input type="text" id="ogame2" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia3()"><br>
+        <p id="txt2"></p>
+    </div>
+    
+    
+    <div class="games">
+        <h1 class="naz">league of legends</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Gra typu MOBA (Multiplayer Online Battle Arena), 5 na 5 graczy na jednej mapie.</li>
+            <li>Celem jest zniszczenie bazy przeciwnika, a każda postać ma inne umiejętności.</li>
+            <li>Ogromna scena e-sportowa i aktywna społeczność graczy.</li>
+        </ul>
+        <input type="text" id="User3" placeholder="NIckname"><br>
+        <input type="text" id="ogame3" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia4()"><br>
+        <p id="txt3"></p>
+    </div>
+
+    <div class="games">
+        <h1 class="naz">Call of Duty: Warzone</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Dynamiczna gra battle royale osadzona w uniwersum Call of Duty.</li>
+            <li>Gracze rywalizują solo lub w drużynach, korzystając z realistycznej broni i pojazdów.</li>
+            <li>Zawiera tryby z odrodzeniem i Gulagiem, co wyróżnia ją na tle konkurencji.</li>
+        </ul>
+        <input type="text" id="User4" placeholder="NIckname"><br>
+        <input type="text" id="ogame4" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia5()"><br>
+        <p id="txt4"></p>
+    </div>
+
+    <div class="games">
+        <h1 class="naz">Minecraft</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Sandboxowa gra o nieskończonej kreatywności — można budować, eksplorować i przetrwać.</li>
+            <li>Tryby: kreatywny (bez ograniczeń) i survival (z walką o zasoby i życie).</li>
+            <li>Ogromna społeczność modderów i serwerów multiplayer z tysiącami możliwości.</li>
+        </ul>
+        <input type="text" id="User5" placeholder="NIckname"><br>
+        <input type="text" id="ogame5" placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia6()"><br>
+        <p id="txt5"></p>
+    </div>
+
+    <div class="games">
+        <h1 class="naz">Sons of the Forest</h1>
+        <p>Klika słów o grze:</p>
+        <ul>
+            <li>Survival horror z elementami craftingu i eksploracji, kontynuacja „The Forest”.</li>
+            <li>Gracz trafia na wyspę pełną kanibali i tajemnic, gdzie musi przeżyć i odkrywać fabułę.</li>
+            <li>Realistyczna grafika, zmienność pory dnia i pogody oraz towarzysz NPC (Kelvin) dodają głębi.</li>
+        </ul>
+        <input type="text" id="User6" placeholder="NIckname"><br>
+        <input type="text" id="ogame6"placeholder="Co sądzisz o grze?"><br>
+        <input type="button" value="Wyślij" onclick="opinia7()"><br>
+        <p id="txt6"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
