@@ -1,4 +1,7 @@
-Kacper Dąbrowski - strona głowna html + js kolo 2,h
+| Imię | Zadanie | Godzziny |
+|--|--|--|
+| Kacper Dąbrowski | strona głowna html + js kolo | 2,h|
+
 Igor Żarnecki - css i cs2 Kolo 2,5h
 Kuba Jedziński Liga Poradnik do lol'a kolo 1.5h
 Piotr Kopytko - minecraft kolo1.5h
